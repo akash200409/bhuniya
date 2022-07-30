@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&family=Rubik:ital,wght@1,300&display=swap');
+* {
+    font-weight: 20;
+    font-family: 'Inconsolata', monospace;
+}
+
+body {
+    background: rgb(10, 10, 10);
+    background: linear-gradient(90deg, rgb(76, 75, 75) 0%, rgba(255, 0, 0, 1) 100%);
+}
+
+.logo img {
+    background-color: black;
+    position: fixed;
+    transform: translate(-50%, -50%);
+    top: 10%;
+    left: 5%;
+    border-radius: 20px;
+    padding: 15px 15px;
+    box-shadow: 0 0 10px black;
+    width: 75px;
+}
+
+.heading h1 {
+    color: white;
+    background: linear-gradient(270deg, rgb(7, 7, 7) 0%, rgba(255, 0, 0, 1) 100%);
+    font-weight: 900;
+    position: fixed;
+    top: 10%;
+    left: 92%;
+    transform: translate(-50%, -50%);
+    padding: 1vh 1vh;
+    border-radius: 10px;
+    text-shadow: 0 0 10vh rgb(255, 255, 255);
+    box-shadow: 0 0 200vh rgb(255, 255, 255);
+    z-index: 1;
+}
+
+.imgs img {
+    border-style: double;
+    border-color: black;
+    border-width: 10px;
+    border-radius: 50px;
+    width: 50%;
+    animation-duration: 1s;
+    animation-name: pics;
+    animation: imgs 3s;
+}
+
+@keyframes pics {
+    0% {
+        background: rgba(0, 0, 0, 0);
+    }
+    100% {
+        background: black;
+    }
+}
+
+@keyframes imgs {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 100;
+    }
+}
+
+
+.txt p {
+    font-weight: 1000;
+}
+
+.idnt p {
+    color: white;
+    width: 90%;
+    font-weight: 1000;
+    top: 35%;
+    right: -1%;
+    position: fixed;
+    text-align: right;
+    font-size: .75em;
+}
+
+.idnt img {
+    background-color: black;
+    border-radius: 90%;
+    padding: 5px 5px;
+    width: 50px;
+    position: fixed;
+    top: 45%;
+    right: 3%;
+    
+}
